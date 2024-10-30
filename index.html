@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div clas="logo">
+            <h1>Shop <span>Fast</span> <small>Headphones</small></h1>
+        </div>
+        <nav>
+            <a href="#">Baixe o app</a>
+            <a href="#">Ajuda</a>
+            <a href="#">Português - BR</a>
+            <a href="#"><i class= "fa fa-seach"></i></a>
+            <a href="#"><i class= "fa fa-shopping-cart"></i></a>
+            <a href="#"><i class="fa-bars"></i></a>
+        </nav>
+    </header>
+    <section class="profile">
+        <h2>Meu Perfil</h2>
+        <p>Gerenciar e proteger sua conta</p>
+        <hr>
+        <div class="profile-content">
+        <form class="profile-form">
+            <label>Nome de usuário</label>
+            <input type="text" value="João2812" readonly>
+            <small>Nome de usuário pode ser alterado apenas uma vez.</small>
+            <label>Nome</label>
+            <input type="text" value="João Victor" readonly>
+
+            <label>Número</label>
+            <input type="text" value="81984617324" readonly>
+
+            <label>Sexo</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" checked>
+                <label for="male">Masculino</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Feminino</label>
+            </div>
+            <label>Email</label>
+            <p>Wr******@gmail.com</p><a href="#">Trocar</a>
+            <label>CPF/Data de nascimento</label>
+            <p>***.***.**4-10</p>
+            <button type="submit" class="save-btn">Salvar</button>
+        </form>
+        <div class="profile-photo">
+            <div class="photo-placeholder">
+                <img src="img/perfil.png" alt="Foto de Perfil">
+            </div>
+            <button class="add-photo-btn">Adicione uma foto</button>
+        </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+
+}
+
+.header {
+    background-color: #0d47a1;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.header .logo h1 {
+    font-size: 24px;
+    color:#fff
+}
+
+.header .logo span {
+    color: #4CAF50;
+}
+
+.header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: nome;
+}
+ .profile {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.profile hr{
+    border: 0;
+    border-top: 2px solid #2196F3;
+    margin: 15px 0;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-form {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.profile-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.profile-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #666
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gender label {
+    margin: 0;
+}
+
+.profile-form p {
+    margin: 5px 0;
+    font-size: 14px
+
+}
+
+.save-btn {
+    width: 100%;
+    padding :10px;
+    background-color: #4CAF50;
+    color: white;
+    border: noone;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.save-btn:hover {
+    background-color: #45a049;
+}
+
+.profile-photo {
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-photo-btn {
+    padding: 8px 12px;
+    border: 1px solid #999;
+    background: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-photo-btn:hover {
+     background-color: #f0f0f0;
+}
