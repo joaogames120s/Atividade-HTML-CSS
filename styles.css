@@ -93,19 +93,24 @@
 }
 
 .profile-form p {
-    margin: 5px 0;
+    margin: 10px 0;
     font-size: 14px
 
 }
 
+.profile-form p + p {
+    margin-top: 20px;
+}
+
 .save-btn {
-    width: 100%;
-    padding :10px;
+    width: 50%;
+    padding :8px;
     background-color: #4CAF50;
     color: white;
     border: noone;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .save-btn:hover {
